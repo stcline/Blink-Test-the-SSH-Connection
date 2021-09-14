@@ -10,6 +10,7 @@ Throughout the year, we will be writing Python scripts to control external hardw
 ## Prerequisites: 
   1. SSH connection to your Raspberry Pi (Using the Secure Shell App)
   2. Install Git on your Raspberry Pi (Should already be installed)
+  3. Personal access token created on your GitHub account for all repos:
     
 ## How to execute code (from the terminal window in the SSH application):
 
@@ -17,9 +18,11 @@ Type the commands below into your terminal window.  Replace [username] with your
 
     git clone https://github.com/WHS-Robotics-Engineering-2021-22/blink-led-python-[username]
     
-Change the working directory to the now one that you just cloned.
+Change the working directory to the now one that you just cloned. Replace [username] with your username on GitHub.
 
-    cd Raspberry-Pi-LED-Blinking-in-Python
+    cd blink-led-python-[username]
+
+When prompted for them, enter your github username and personal access token created in step 3 above.
 
 Run the Python script using root access (sudo).
 
