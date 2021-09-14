@@ -10,7 +10,7 @@ Throughout the year, we will be writing Python scripts to control external hardw
 ## Prerequisites: 
   1. SSH connection to your Raspberry Pi (Using the Secure Shell App)
   2. Install Git on your Raspberry Pi (Should already be installed)
-  3. Personal access token created on your GitHub account for all repos:
+  3. Personal access token created on your GitHub account for all repos.  To do this, follow the steps found [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token).
     
 ## How to execute code (from the terminal window in the SSH application):
 
